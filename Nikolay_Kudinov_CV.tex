@@ -1,9 +1,8 @@
-
 %-------------------------
 % Author : Nikolay Kudinov
 %-------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -32,6 +31,11 @@
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
+\hypersetup{
+  colorlinks=false,
+  pdfborder={0 0 0},
+  pdfencoding=auto,
+}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
@@ -71,17 +75,17 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape Nikolay Kudinov} \\
-    \vspace{1pt}
-    \small Berlin, Germany \\
-    \href{mailto:nikolay.a.kudinov@gmail.com}{\underline{nikolay.a.kudinov@gmail.com}} \\
-    Phone: +49 15123317890
+  \textbf{\Huge \scshape Nikolay Kudinov} \\
+  \vspace{1pt}
+  Berlin, Germany \\
+  \href{mailto:nikolay.a.kudinov@gmail.com}{\underline{nikolay.a.kudinov@gmail.com}} \\
+  Phone: +49 15123317890
 \end{center}
 
 %-----------SUMMARY-----------
 \section{Summary}
   \resumeSubHeadingListStart
-    \resumeItem{Highly skilled backend developer with expertise in designing and optimizing distributed systems and data-intensive applications. Proficient in Java, Scala with extensive experience in building highly scalable, fault-tolerant solutions for e-commerce and financial domains. Deep knowledge in database internals, query optimization, and performance tuning, with a proven ability to enhance system reliability and efficiency.}
+    \resumeItem{Results-driven backend engineer specializing in distributed systems, microservices, and high-performance architectures. Proficient in scalable cloud solutions (AWS, Kubernetes) and fault-tolerant applications. Experienced in database performance tuning and query optimization, improving efficiency and reliability. Passionate about solving large-scale engineering challenges and system design.}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -93,13 +97,13 @@
       \resumeItem{Designed and implemented an innovative suspicious activity detection system based on address
       similarity, capable of detecting 97\% of similar addresses, significantly improving genuie customers
       purchase success rates for popular items.}
-      \resumeItem{Developed an emergency onboarding process of hyped articles to stabilize systems during peak demand, ensuring consistent availability and enhancing the fault tolerance of the entire Zalando system.}
+      \resumeItem{Engineered an emergency onboarding process for hyped articles, capable of handling more than 10K+ events/min using Flink, DynamoDB, ensuring high availability and fault tolerance during peak demand, and stabilizing critical systems across Zalando.}
       \resumeItem{Optimized backend algorithms to improve the turnover of limited-stock items, resulting in increased sales performance.}
       \resumeItem{Communicated effectively and closely collaborated with other teams during the collection requirement phase for GhostAds, leading efforts to ensure cross-functional alignment.}
       \resumeItem{Optimized the Ad Campaign Management endpoints, reducing response latency by 40\% and enhancing system throughput, significantly improving the Ads platform's responsiveness under high-load conditions.}    
     \resumeItemListEnd
 
-    \resumeSubheading{Senior Java/Scala Developer}{09/2014 -- 04/2021}{Deutsche Bank}{Germany}
+    \resumeSubheading{Senior Software Engineer – Java \& Scala}{09/2014 -- 04/2021}{Deutsche Bank}{Germany}
     \resumeItemListStart
       \resumeItem{Developed and optimized Job Manager, a system for tracking trade processing job statuses, enhancing monitoring and efficiency.}
       \resumeItem{Reduced Input Data Cache (IDC) startup time by 60\%, improving data availability for a 15K-node calculation grid that supports trade, market, and reference data.}
@@ -142,11 +146,13 @@
   \section{Skills, Licenses, and Certifications}  
   \resumeItemListStart  
     \resumeItem{\textbf{Programming Languages:} Java, Scala, SQL, PL/SQL, Python}  
-    \resumeItem{\textbf{Databases \& Storage:} Oracle, PostgreSQL, ClickHouse, DynamoDB}  
+    \resumeItem{\textbf{Databases \& Storage:} Oracle, PostgreSQL, ClickHouse, DynamoDB, Redis}  
     \resumeItem{\textbf{Distributed Systems \& Data Processing:} Apache Spark, Flink,  Akka Streams, Alpakka, Apache Kafka}  
-    \resumeItem{\textbf{Backend \& Cloud Infrastructure:} Spring Boot, Kubernetes, AWS (IAM, S3, DynamoDB)}  
+    \resumeItem{\textbf{Backend \& Cloud Infrastructure:} Spring Boot, Kubernetes, Grafana, OpenTelemetry, AWS (IAM, S3, DynamoDB)}  
     \resumeItem{\textbf{Performance Optimization:} Advanced SQL tuning, query optimization, database internals, and high-throughput system design}  
-    \resumeItem{\textbf{Certifications:} Oracle Certified Professional, Java SE 8 Programmer, Functional Programming Principles in Scala}  
+    \resumeItem{\textbf{Certifications:} Oracle Certified Professional, Java SE 8 Programmer, Functional Programming Principles in Scala}
+    \resumeItem{\textbf{System Design \& Architecture:} Scalability, Microservices, Fault-Tolerance, High Availability}  
+    \resumeItem{\textbf{Data Structures \& Algorithms:} Strong problem-solving skills, 1100+ Leetcode problems solved} 
   \resumeItemListEnd  
 %-------------------------------------------
 \end{document}
